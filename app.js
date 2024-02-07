@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3002;
 
 // Build-time variables
 const buildVar1 = process.env.BUILD_VAR1 || 'defaultBuildVar1';
